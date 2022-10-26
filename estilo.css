@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  white;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    border-bottom: solid 3px rgba(45, 247, 17, 255);
+    display: flex;
+    justify-content: left;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    background-image: url(teste.jpg);
+    background: cover;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    border-top: solid 3px rgba(45, 247, 17, 255);
+}
+
+/* logo */
+.LE{
+    width: 33vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+/* contato conosco */
+.Centro{
+width: 33vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Redes sociais */
+.LD{
+width: 33vw;
+display: flex;
+align-items: baseline0;
+justify-content: right;
+}
